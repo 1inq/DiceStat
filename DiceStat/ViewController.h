@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+
+
+@interface ViewController : UIViewController
+- (IBAction)resetModel:(id)sender;
+- (IBAction)changeValue:(UIButton*) button;
 
 @end
 
