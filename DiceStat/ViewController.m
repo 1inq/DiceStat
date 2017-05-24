@@ -50,14 +50,11 @@
     ModelStats *model = [[ModelStats alloc] init];
     self.model = model;
     
-    // Do any additional setup after loading the view, typically from a nib.
    
     [self.resetButton addTarget:model action:@selector(resetStats) forControlEvents:UIControlEventTouchDragInside];
     
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     [nc addObserver:self selector:@selector(modelDidChanged) name:ModelDidChangedNotification object:NULL];
-   
-    //
     
     [model resetStats];
     [self culatePercents];
@@ -65,10 +62,10 @@
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
-
 
 
 - (IBAction)resetModel:(id)sender {
@@ -136,7 +133,6 @@
 #pragma mark - Notification
 
 -(void) modelDidChanged {
-    //NSLog(@"model did changed");
     
     //refresh model
     for (int i = 0; i <= 10; i++) {

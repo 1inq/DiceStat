@@ -14,7 +14,6 @@
 		737E12A41E04053E008123EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737E12A31E04053E008123EB /* Assets.xcassets */; };
 		737E12A71E04053E008123EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737E12A51E04053E008123EB /* LaunchScreen.storyboard */; };
 		737E12B01E040622008123EB /* ModelStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E12AF1E040622008123EB /* ModelStats.m */; };
-		73EA83651E04AAF900162985 /* NSArray (sortBy).m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA83641E04AAF900162985 /* NSArray (sortBy).m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		737E12A81E04053E008123EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737E12AE1E040622008123EB /* ModelStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelStats.h; sourceTree = "<group>"; };
 		737E12AF1E040622008123EB /* ModelStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelStats.m; sourceTree = "<group>"; };
-		73EA83631E04AAF900162985 /* NSArray (sortBy).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray (sortBy).h"; sourceTree = "<group>"; };
-		73EA83641E04AAF900162985 /* NSArray (sortBy).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray (sortBy).m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +61,6 @@
 		737E12961E04053E008123EB /* DiceStat */ = {
 			isa = PBXGroup;
 			children = (
-				73EA83631E04AAF900162985 /* NSArray (sortBy).h */,
-				73EA83641E04AAF900162985 /* NSArray (sortBy).m */,
 				737E12AE1E040622008123EB /* ModelStats.h */,
 				737E12AF1E040622008123EB /* ModelStats.m */,
 				737E129A1E04053E008123EB /* AppDelegate.h */,
@@ -163,7 +158,6 @@
 			files = (
 				737E129F1E04053E008123EB /* ViewController.m in Sources */,
 				737E129C1E04053E008123EB /* AppDelegate.m in Sources */,
-				73EA83651E04AAF900162985 /* NSArray (sortBy).m in Sources */,
 				737E12991E04053E008123EB /* main.m in Sources */,
 				737E12B01E040622008123EB /* ModelStats.m in Sources */,
 			);
